@@ -6,3 +6,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Visiteur::Index');
 $routes->get('index', 'Visiteur::Index');
 $routes->match(['get', 'post'], 'contact', 'Visiteur::Contact');
+$routes->get('rgpd', 'Visiteur::Rgpd');

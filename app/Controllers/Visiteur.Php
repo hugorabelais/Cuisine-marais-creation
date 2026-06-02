@@ -63,4 +63,11 @@ $data['reviews'] = $data['result']['reviews'];
             .view('Visiteur/vue_contact', $data ?? [])
             .view('Templates/Footer');
     }
+
+    public function Rgpd()
+    {
+        return view('Templates/Header')
+            .view('Visiteur/vue_rgpd')
+            .view('Templates/Footer');
+    }
 }
