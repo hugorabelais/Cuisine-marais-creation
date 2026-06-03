@@ -298,6 +298,192 @@ body {
   color: #1a1a1a;
 }
 
+/* QSN Page Styles */
+.qsn-section {
+  background-color: #1a1a1a;
+  color: #d4af37;
+  padding: 50px 0;
+}
+
+.qsn-section h1 {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  letter-spacing: 2px;
+}
+
+.qsn-section h2 {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.qsn-card {
+  background-color: #2a2a2a;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.jerome-photo {
+  width: 100%;
+  max-width: 250px;
+  border: 3px solid #d4af37;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.qsn-card h3 {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.qsn-card .role {
+  color: #e8d4a0;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.qsn-text {
+  color: #e8d4a0;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.qsn-text strong {
+  color: #d4af37;
+}
+
+/* Qualities Grid */
+.qualities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.quality-card {
+  background-color: #2a2a2a;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.quality-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.3);
+  border-color: #ffd700;
+}
+
+.quality-icon {
+  font-size: 3rem;
+  color: #d4af37;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.quality-card:hover .quality-icon {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+.quality-title {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.quality-text {
+  color: #e8d4a0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Projet Page Styles */
+.projet-section {
+  background-color: #1a1a1a;
+  color: #d4af37;
+  padding: 50px 0;
+}
+
+.projet-section h1 {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  letter-spacing: 2px;
+}
+
+.projet-title {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.projet-text {
+  color: #e8d4a0;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.projet-text strong {
+  color: #d4af37;
+}
+
+/* Align images in same row to same height */
+.align-items-stretch {
+  align-items: stretch !important;
+}
+
+.align-items-stretch .col-3,
+.align-items-stretch .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-img {
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.carousel-img:hover {
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+  transform: scale(1.02);
+}
+
+/* Image 23 full height */
+.carousel-img-large {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Ensure lightbox links have no text decoration */
+a.glightbox {
+  text-decoration: none;
+  display: block;
+}
+
+a.glightbox:hover img {
+  opacity: 0.9;
+}
+
 .contact-section {
   background-color: #1a1a1a;
   color: #d4af37;

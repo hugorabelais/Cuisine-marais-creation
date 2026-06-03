@@ -7,14 +7,14 @@ class Visiteur extends BaseController
     public function Index()
     {
         $apiKey = "AIzaSyDqn-w9zwQ6Zai0wEcD8Fa82wg--jxKM7I";
-$placeId = "ChIJAzHRAE39EUgR7rbgbnJdnqM";
+    $placeId = "ChIJAzHRAE39EUgR7rbgbnJdnqM";
 
 $url = "https://maps.googleapis.com/maps/api/place/details/json?place_id=$placeId&language=fr&fields=reviews,rating,name&key=$apiKey";
 
 $response = file_get_contents($url);
 $data = json_decode($response, true);
 
-$data['reviews'] = $data['result']['reviews'];
+$data['reviews'] = isset($data['result']['reviews']) ? $data['result']['reviews'] : [];
         return view('Templates/Header')
             .view('Visiteur/vue_acceuil',$data)
             .view('Templates/Footer');
@@ -68,6 +68,27 @@ $data['reviews'] = $data['result']['reviews'];
     {
         return view('Templates/Header')
             .view('Visiteur/vue_rgpd')
+            .view('Templates/Footer');
+    }
+
+        public function QuiSommesNous()
+    {
+        return view('Templates/Header')
+            .view('Visiteur/vue_qsn')
+            .view('Templates/Footer');
+    }
+
+    public function Projet()
+    {
+        return view('Templates/Header')
+            .view('Visiteur/vue_Projet')
+            .view('Templates/Footer');
+    }
+
+    public function Fournisseur()
+    {
+        return view('Templates/Header')
+            .view('Visiteur/vue_fournisseur')
             .view('Templates/Footer');
     }
 }
