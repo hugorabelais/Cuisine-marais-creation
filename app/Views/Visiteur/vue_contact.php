@@ -51,44 +51,45 @@
         </div>
 
         <!-- Information Cards Section -->
-        <div class="row mb-5">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <h5 class="info-title">Téléphone</h5>
-                    <p class="info-text">02 96 94 46 04</p>
-                </div>
+<div class="row mb-5 justify-content-center text-center">
+    
+    <div class="col-12">
+        <h2 class="mb-4">Nos coordonnées</h2>
+    </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="info-card">
+            <div class="info-icon">
+                <i class="fas fa-phone"></i>
             </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h5 class="info-title">Email</h5>
-                    <p class="info-text">cmc@22590pordic.com</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-fax"></i>
-                    </div>
-                    <h5 class="info-title">Fax</h5>
-                    <p class="info-text">02 96 94 46 05</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h5 class="info-title">Adresse</h5>
-                    <p class="info-text">1 bis rue Pierre et Marie Curie, 22590 Pordic</p>
-                </div>
-            </div>
+            <h5 class="info-title">Téléphone</h5>
+            <p class="info-text">06 70 26 35 08</p>
         </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="info-card">
+            <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h5 class="info-title">Email</h5>
+            <p class="info-text">cmc@22590pordic.com</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="info-card">
+            <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h5 class="info-title">Adresse</h5>
+            <p class="info-text">
+                1 bis rue Pierre et Marie Curie, 22590 Pordic
+            </p>
+        </div>
+    </div>
+
+</div>
 
         <!-- Social Media Section -->
         <div class="row mb-5">

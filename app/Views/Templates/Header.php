@@ -43,9 +43,6 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php  echo site_url('contact') ?>">Nous contactez</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php  echo site_url('fournisseur') ?>">Nos fournisseurs</a>
-        </li>
 
       </ul>
 

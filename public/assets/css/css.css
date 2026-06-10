@@ -471,7 +471,8 @@ body {
 /* Image 23 full height */
 .carousel-img-large {
   object-fit: cover;
-  height: 100%;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 /* Ensure lightbox links have no text decoration */
@@ -482,6 +483,23 @@ a.glightbox {
 
 a.glightbox:hover img {
   opacity: 0.9;
+}
+
+/* Force align-items-stretch rows to fill height */
+.row.align-items-stretch .col-3,
+.row.align-items-stretch .col-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row.align-items-stretch .col-6 a.glightbox {
+  display: flex;
+  flex-grow: 1;
+}
+
+.row.align-items-stretch .col-6 img {
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .contact-section {

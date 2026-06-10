@@ -1,5 +1,5 @@
 <div class="accueil-section">
-    <h1 class="text-center">Cuisine Marais Creation</h1>
+    <h1 class="text-center">Cuisines Marais Creation</h1>
 
     <div id="carouselExample" class="carousel slide d-block w-50 mx-auto mb-5">
         <div class="carousel-inner">
@@ -34,7 +34,7 @@
         <div class="col-2"></div>
         <div class="text-center col-8">
             <h2 class="mb-4">De l'authenticité grâce à des aménagements sur mesure</h2>
-            <b>Cuisines Marais Création c'est le savoir faire à la Française grâce à notre distributeur vendéen qui conçoit et fabrique nos meubles sur mesure. Nous avons à cœur de personnalisé chacun de vos projets en collaboration avec nos artisans pour faire de votre aménagement un lieu unique.</b>
+            <b>Cuisines Marais Création c'est le savoir faire à la Française grâce à notre distributeur vendéen qui conçoit et fabrique nos meubles sur mesure. Nous avons à cœur de personnaliser chacun de vos projets en collaboration avec nos artisans pour faire de votre aménagement un lieu unique.</b>
             <h2 class="mt-5 mb-4">Découvrez nos collections...</h2>    
         </div>
         <div class="col-2"></div>
@@ -44,7 +44,7 @@
         <div class="col-2"></div>
         <div class="text-center col-4">
             <div class="collection-card">
-                <a href="<?php echo site_url('nos-cuisine') ?>">
+                <a href="<?php echo site_url('nos-projets') ?>">
                     <img src="<?= base_url('assets/images/cuisineAcceuil4.jpg') ?>" class="d-block w-100 carousel-img" alt="Nos cuisines">
                 </a>
             </div>
@@ -52,7 +52,7 @@
         </div>
         <div class="text-center col-4">
             <div class="collection-card">
-                <a href="<?php echo site_url('nos-salles-de-bains') ?>">
+                <a href="<?php echo site_url('nos-projets') ?>">
                     <img src="<?= base_url('assets/images/sallesDeBainsAcceuil.jpg') ?>" class="d-block w-100 carousel-img" alt="Nos salles de bains">
                 </a>
             </div>

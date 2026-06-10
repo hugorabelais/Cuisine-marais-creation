@@ -21,7 +21,7 @@
                                 <strong>Cuisines Marais Création</strong> est géré par Monsieur Jérôme MARAIS, un expert et un passionné dans la création d'ameublement d'intérieur et du contact client depuis 17 ans. C'est grâce à cela que nous vous apporterons des conseils personnalisés pour composer votre projet sur mesure à votre identité !
                             </p>
                             <p class="qsn-text">
-                                Pour cela, Cuisines Marais Création vous propose la gamme de <strong>CUISINES YOU</strong>, du sur mesure mais également de la qualité Française (fabrication vendéenne depuis 1948) qui vous offre un large choix de styles (traditionnelles, modernes ou rustiques) ainsi que de divers matériaux et couleurs dans notre showroom de 100m² basé à Pordic.
+                                Pour cela, Cuisines Marais Création vous propose la gamme de <a href="https://www.you.fr/"><strong>CUISINES YOU</strong></a>, du sur mesure mais également de la qualité Française (fabrication vendéenne depuis 1948) qui vous offre un large choix de styles (traditionnelles, modernes ou rustiques) ainsi que de divers matériaux et couleurs dans notre showroom de 100m² basé à Pordic.
                             </p>
                         </div>
                     </div>

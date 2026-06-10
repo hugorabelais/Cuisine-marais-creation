@@ -35,7 +35,7 @@ $data['reviews'] = isset($data['result']['reviews']) ? $data['result']['reviews'
 
                 // Configure l'email
                 $email_service->setFrom($email, $prenom . ' ' . $nom);
-                $email_service->setTo('hugo.hamonic22@gmail.com');
+                $email_service->setTo('cmc@22590pordic.com');
                 $email_service->setSubject('Nouveau message de contact - ' . $prenom . ' ' . $nom);
 
                 // Prépare le corps du message
